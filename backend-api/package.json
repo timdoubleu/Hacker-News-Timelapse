@@ -1,0 +1,42 @@
+{
+  "name": "hnp",
+  "version": "3.0.1",
+  "description": "Hacker News Project",
+  "main": "server.js",
+  "repository": "https://github.com/timdoubleu/hnTimelapseApi.git",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "engines": {
+    "node": "8.9.4"
+  },
+  "author": "Tim Williams & Anthony Fenech",
+  "license": "ISC",
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "hapi": "^17.2.0",
+    "hapi-auth-bearer-token": "^6.0.1",
+    "hapi-cron": "^1.0.0",
+    "joi": "^13.1.2",
+    "lodash": "^4.17.5",
+    "redis": "^2.8.0",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-plugin-lodash": "^3.3.2",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-minify": "^0.3.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.18.1",
+    "eslint-plugin-lodash": "^2.6.1",
+    "webpack": "^4.0.0",
+    "webpack-monitor": "^1.0.14"
+  }
+}
